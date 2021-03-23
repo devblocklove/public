@@ -6,9 +6,8 @@ module.exports = {
   contracts_build_directory: path.join(__dirname, "app/src/contracts"),
   networks: {
     develop: { // default with truffle unbox is 7545, but we can use develop to test changes, ex. truffle migrate --network develop
-      host: "127.0.0.1",
-      port: 8545,
-      network_id: "*"
+      host: "https://sandbox.truffleteams.com/87053f4f-a2a2-461d-923d-156cc17e68a7",
+      network_id: "1616541522902"
     }
   }
 };
